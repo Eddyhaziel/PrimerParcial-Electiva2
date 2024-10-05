@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de YouTube</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Fondo de la página con imagen */
+        body {
+            padding-top: 50px;
+            background-image: url('https://digwallpapers.com/wallpapers/full/b/7/c/53196-2560x1440-studio-ghibli-wallpaper-desktop-hd.jpg'); /* Cambia esta URL a la imagen que desees usar */
+            background-size: cover; /* Hace que la imagen cubra todo el fondo */
+            background-position: center; /* Centra la imagen en el fondo */
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px; /* Máximo ancho del contenedor */
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente para el contenedor */
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Posiciona la caja */
+            margin: 0 auto; /* Centra el contenedor en la página */
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        iframe {
+            width: 85%; /* El iframe ocupa el 85% del contenedor (ancho más grande) */
+            height: 280px; /* Altura ajustada */
+            border: none;
+            display: block; /* Para centrar el iframe dentro del contenedor */
+            margin: 0 auto; /* Centra el iframe */
+        }
+
+        hr {
+            width: 98%; /* Ancho de la línea horizontal */
+            margin: 20px auto; /* Centrado horizontalmente y espacio vertical */
+            border: none; /* Elimina el borde predeterminado */
+            height: 1px; /* Altura de la línea */
+            background-color: #007bff; /* Color de la línea */
+        }
+
+        .copyright {
+            margin-top: 10px; /* Espacio superior para el texto de copyright */
+            font-size: 14px; /* Tamaño de fuente */
+            color: #555; /* Color del texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1>Convertidor de YouTube</h1>
+        <p>Usa el siguiente convertidor para descargar videos de YouTube en MP3 o MP4.</p>
+
+        <!-- Iframe para el convertidor -->
+        <iframe src="https://ytmp3.cc/" title="Convertidor de YouTube" scrolling="no"></iframe>
+
+        <!-- Línea horizontal -->
+        <hr>
+
+        <!-- Mensaje de derechos de autor -->
+        <div class="copyright">
+            &copy; 2024 Eddy Disla. Todos los derechos reservados.
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
