@@ -22,4 +22,4 @@ jobs:
 
       - name: Deploy to Surge
         run: |
-          surge ./ index.html --project YOUR_PROJECT_NAME --token ${{ secrets.SURGE_TOKEN }}
+          surge ./src https://Eddy-p1.surge.sh --token ${{ secrets.SECRET_TOKEN }}
